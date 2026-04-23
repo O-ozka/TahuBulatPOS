@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "pos/pos.MainApp",
+            "projectName": "TahuBulatPOS"
+        },
+        {
+            "type": "java",
+            "name": "🍢 Jalankan POS Tahu Bulat",
+            "request": "launch",
+            "mainClass": "pos.MainApp",
+            "projectName": "TahuBulatPOS",
+            "vmArgs": "--module-path \"${env:PATH_TO_FX}\" --add-modules javafx.controls,javafx.fxml,javafx.media",
+            "env": {
+                "PATH_TO_FX": ""
+            }
+        }
+    ]
+}
